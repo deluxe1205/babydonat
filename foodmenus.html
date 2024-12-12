@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu - Baby Donut</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://img.freepik.com/free-vector/hand-drawn-candy-pastel-color-pattern_23-2150536355.jpg?t=st=1734022569~exp=1734026169~hmac=4b8b2d0225dd9fe202fa0dc5584825e8b9225d5e3ff93c65f9fa16e2404d34dc&w=740');
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            background-color: #ff8c8c; /* Pink header */
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        .navbar {
+            background-color: #ff8c8c; /* Pinkish navbar */
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            background-color: #ff4c4c; /* Darker pink on hover */
+            border-radius: 5px;
+        }
+
+        .menu-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .menu-item {
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            margin-bottom: 20px;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            max-width: 200px;
+            margin-bottom: 10px;
+        }
+
+        .menu-item h3 {
+            font-size: 18px;
+            color: #ff4c4c; /* Pinkish color for headings */
+        }
+
+        .menu-item p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .mini-donuts-container {
+            background-color: #ffe6e6; /* Light pink background for mini donuts */
+            border-radius: 10px;
+            padding: 20px;
+            width: 100%;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #264653;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .other-menus {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            gap: 20px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+        }
+
+        .other-menus .menu-item {
+            margin-bottom: 0; /* Remove bottom margin for grid layout */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Food Menu</h1>
+        <p>Indulge in our delectable Filipino treats!</p>
+    </header>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="foodmenus.html">Menu</a>
+        <a href="crafts.html">Crafts</a>
+        <a href="contact.html">Contact</a>
+        <a href="aboutus.html">About Us</a>
+    </div>
+
+    <section class="menu-section">
+        <!-- Mini Donuts Section -->
+        <div class="mini-donuts-container">
+            <h2>Mini Donuts</h2>
+            <div class="menu-item">
+                <img src="mini_donut1.jpg" alt="Mini Donut 1">
+                <h3>Mini Donut 1</h3>
+                <p>6 pieces - 60 pesos, 12 pieces - 120 pesos</p>
+            </div>
+            <div class="menu-item">
+                <img src="mini_donut2.jpg" alt="Mini Donut 2">
+                <h3>Mini Donut 2</h3>
+                <p>6 pieces - 60 pesos, 12 pieces - 120 pesos</p>
+            </div>
+            <div class="menu-item">
+                <img src="mini_donut3.jpg" alt="Mini Donut 3">
+                <h3>Mini Donut 3</h3>
+                <p>6 pieces - 60 pesos, 12 pieces - 120 pesos</p>
+            </div>
+            <div class="menu-item">
+                <img src="mini_donut4.jpg" alt="Mini Donut 4">
+                <h3>Mini Donut 4</h3>
+                <p>6 pieces - 60 pesos, 12 pieces - 120 pesos</p>
+            </div>
+            <div class="menu-item">
+                <img src="mini_donut5.jpg" alt="Mini Donut 5">
+                <h3>Mini Donut 5</h3>
+                <p>6 pieces - 60 pesos, 12 pieces - 120 pesos</p>
+            </div>
+            <div class="menu-item">
+                <img src="mini_donut6.jpg" alt="Mini Donut 6">
+                <h3>Mini Donut 6</h3>
+                <p>6 pieces - 60 pesos, 12 pieces - 120 pesos</p>
+            </div>
+        </div>
+
+        <!-- Other Menus Section -->
+        <div class="other-menus">
+            <h2>Other Menus</h2>
+            <div class="menu-item">
+                <img src="leche_flan.jpg" alt="Leche Flan">
+                <h3>Leche Flan</h3>
+                <p>100 pesos</p>
+            </div>
+            <div class="menu-item">
+                <img src="palabok.jpg" alt="Palabok">
+                <h3>Palabok</h3>
+                <p>100 pesos</p>
+            </div>
+            <div class="menu-item">
+                <img src="pancit_canto.jpg" alt="Pancit Canto">
+                <h3>Pancit Canto</h3>
+                <p>150 pesos</p>
+            </div>
+            <div class="menu-item">
+                <img src="cupcakes.jpg" alt="Cupcakes">
+                <h3>Cupcakes</h3>
+                <p>120 pesos per box</p>
+            </div>
+            <div class="menu-item">
+                <img src="puto.jpg" alt="Puto">
+                <h3>Puto</h3>
+                <p>100 pesos per box</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        &copy; 2024 Baby Donut. All rights reserved.
+    </footer>
+</body>
+</html>
