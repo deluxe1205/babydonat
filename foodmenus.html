@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crafts Menu - Baby Donut</title>
+    <title>Food Menu - Baby Donut</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
-            background-image: url('https://img.freepik.com/premium-photo/pink-satin-background-with-white-pink-flowers-gold-sparkles_36682-115851.jpg?w=826'); /* Replace with your background image URL */
+            background-image: url('https://img.freepik.com/free-vector/hand-drawn-candy-pastel-color-pattern_23-2150536355.jpg?t=st=1734022569~exp=1734026169~hmac=4b8b2d0225dd9fe202fa0dc5584825e8b9225d5e3ff93c65f9fa16e2404d34dc&w=740');
             background-size: cover;
             background-position: center;
         }
 
         header {
-            background-color: rgba(255, 182, 193, 0.8); /* Light pink background */
+            background-color: #ff8c8c; /* Pink header */
             color: white;
             padding: 20px 10px;
             text-align: center;
@@ -38,11 +37,11 @@
         }
 
         .navbar a:hover {
-            background-color: #ff1493; /* Darker pink on hover */
+            background-color: #ff4c4c; /* Darker pink on hover */
             border-radius: 5px;
         }
 
-        .crafts-section {
+        .menu-section {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -50,7 +49,7 @@
             padding: 20px;
         }
 
-        .craft-item {
+        .menu-item {
             background-color: white;
             border: 1px solid #ccc;
             padding: 15px;
@@ -58,45 +57,64 @@
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             width: 250px;
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            margin-bottom: 20px;
         }
 
-        .craft-item:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        .craft-item img {
+        .menu-item img {
             width: 100%;
             height: auto;
             max-width: 200px;
             margin-bottom: 10px;
-            border-radius: 5px;
         }
 
-        .craft-item h3 {
+        .menu-item h3 {
             font-size: 18px;
-            color: #ff1493; /* Dark pink for headings */
+            color: #ff4c4c; /* Pinkish color for headings */
         }
 
-        .craft-item p {
+        .menu-item p {
             font-size: 14px;
             color: #555;
         }
 
-        footer {
+        .mini-donuts-container {
+            background-color: #ffe6e6; /* Light pink background for mini donuts */
+            border-radius: 10px;
+            padding: 20px;
+            width: 100%;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .footer {
             text-align: center;
             padding: 10px;
             background-color: #c97b63;
             color: white;
             margin-top: 30px;
         }
+
+        .other-menus {
+            display: flex;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            gap: 20px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+        }
+
+        .other-menus .menu-item {
+            margin-bottom: 0; /* Remove bottom margin for grid layout */
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Crafts Menu</h1>
-        <p>Explore our beautiful handmade crafts!</p>
+        <h1>Food Menu</h1>
+        <p>Indulge in our delectable Filipino treats!</p>
     </header>
 
     <div class="navbar">
@@ -108,40 +126,60 @@
         <a href="feedback.html">Feedback</a>
     </div>
 
-    <section class="crafts-section">
-        <div class="craft-item">
-            <img src="money1.png" alt="Money Garland 1">
-            <h3>Money Garland 1</h3>
-            <p>Beautifully crafted garland for weddings, birthdays, and other celebrations.</p>
+    <section class="menu-section">
+        <!-- Mini Donuts Section -->
+        <div class="mini-donuts-container">
+            <h2>Mini Donuts</h2>
+            <div class="menu-item">
+                <img src="donut.png" alt="Mini Donut 1">
+                <h3>Mini Donut 1</h3>
+                <p>6 pieces - 60 pesos, 12 pieces - 120 pesos</p>
+            </div>
+            <div class="menu-item">
+                <img src="donut2.png" alt="Mini Donut 2">
+                <h3>Mini Donut 2</h3>
+                <p>6 pieces - 60 pesos, 12 pieces - 120 pesos</p>
+            </div>
+            <div class="menu-item">
+                <img src="donut3.png" alt="Mini Donut 3">
+                <h3>Mini Donut 3</h3>
+                <p>6 pieces - 60 pesos, 12 pieces - 120 pesos</p>
+            </div>
+            
         </div>
-        <div class="craft-item">
-            <img src="money2.png" alt="Money Garland 2">
-            <h3>Money Garland 2</h3>
-            <p>A more intricate design perfect for gift-giving and special occasions.</p>
-        </div>
-        <div class="craft-item">
-            <img src="money1.png" alt="Money Garland 3">
-            <h3>Money Garland 3</h3>
-            <p>Handmade with care, ideal for any event that needs an extra special touch.</p>
-        </div>
-        <div class="craft-item">
-            <img src="satin1.png" alt="Satin Flower 1">
-            <h3>Satin Flower 1</h3>
-            <p>Elegant satin flowers for any occasion or as a decorative piece.</p>
-        </div>
-        <div class="craft-item">
-            <img src="satin2.png" alt="Satin Flower 2">
-            <h3>Satin Flower 2</h3>
-            <p>Delicate satin petals carefully arranged for your special events.</p>
-        </div>
-        <div class="craft-item">
-            <img src="satin3.png" alt="Satin Flower 3">
-            <h3>Satin Flower 3</h3>
-            <p>Perfect for bridal bouquets or event decor with a touch of elegance.</p>
+
+        <!-- Other Menus Section -->
+        <div class="other-menus">
+            <h2>Other Menus</h2>
+            <div class="menu-item">
+                <img src="letcheflan.png" alt="Leche Flan">
+                <h3>Leche Flan</h3>
+                <p>100 pesos</p>
+            </div>
+            <div class="menu-item">
+                <img src="palabok.png" alt="Palabok">
+                <h3>Palabok</h3>
+                <p>100 pesos</p>
+            </div>
+            <div class="menu-item">
+                <img src="pancit.png" alt="Pancit Canton">
+                <h3>Pancit Canton</h3>
+                <p>150 pesos</p>
+            </div>
+            <div class="menu-item">
+                <img src="cupcake.png" alt="Cupcakes">
+                <h3>Cupcakes</h3>
+                <p>120 pesos per box</p>
+            </div>
+            <div class="menu-item">
+                <img src="puto.png" alt="Puto">
+                <h3>Puto</h3>
+                <p>100 pesos per box</p>
+            </div>
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         &copy; 2024 Baby Donut. All rights reserved.
     </footer>
 </body>
