@@ -58,6 +58,12 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             width: 250px;
             margin-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
 
         .menu-item img {
@@ -89,25 +95,22 @@
             gap: 20px;
         }
 
-        .footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #c97b63;
-            color: white;
-            margin-top: 30px;
-        }
-
         .other-menus {
             display: flex;
-            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            flex-wrap: wrap;
+            justify-content: center;
             gap: 20px;
             padding: 20px;
             background-color: #f2f2f2;
             border-radius: 10px;
         }
 
-        .other-menus .menu-item {
-            margin-bottom: 0; /* Remove bottom margin for grid layout */
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #c97b63;
+            color: white;
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -145,7 +148,6 @@
                 <h3>Mini Donut 3</h3>
                 <p>6 pieces - 60 pesos, 12 pieces - 120 pesos</p>
             </div>
-            
         </div>
 
         <!-- Other Menus Section -->
