@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback - Baby Donut</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8e8dc; /* Light brown background */
+        }
+
+        header {
+            background-color: #f4a7b9; /* Pink header */
+            color: black;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #c97b63; /* Light brown navbar */
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .navbar a:hover {
+            background-color: #f4a7b9; /* Pink hover effect */
+        }
+
+        .feedback-section {
+            padding: 30px;
+        }
+
+        .feedback-header {
+            text-align: center;
+            font-size: 2em;
+            color: #d65c74; /* Pink text for header */
+            margin-bottom: 20px;
+        }
+
+        .feedback-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .feedback-card {
+            background-color: #f8e8dc; /* Light brown card background */
+            border: 2px solid #f4a7b9; /* Pink border */
+            border-radius: 15px;
+            width: 300px;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .feedback-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .feedback-card p {
+            font-size: 1em;
+            color: #7f4c3c; /* Deep brown text */
+            margin: 10px 0 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #c97b63;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Baby Donut - Customer Feedback
+    </header>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="foodmenus.html">Menu</a>
+        <a href="crafts.html">Crafts</a>
+        <a href="contact.html">Contact</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="feedback.html">Feedback</a>
+    </div>
+
+    <section class="feedback-section">
+        <div class="feedback-header">What Our Customers Say</div>
+        <div class="feedback-grid">
+            <div class="feedback-card">
+                <img src="fb1.jpg" alt="Customer Feedback 1">
+                <p>"Treat your girl right!"</p>
+            </div>
+            <div class="feedback-card">
+                <img src="fb2.jpg" alt="Customer Feedback 2">
+                <p>"Make your mother happy, Order now!!"</p>
+            </div>
+            <div class="feedback-card">
+                <img src="fb3.jpg" alt="Customer Feedback 3">
+                <p>"Perfect for any occasion. 10/10!"</p>
+            </div>
+            <div class="feedback-card">
+                <img src="fb4.jpg" alt="Customer Feedback 4">
+                <p>"Donut is not complete without you 'Baby,' order from Baby Donut now!"</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Baby Donut. All rights reserved.
+    </footer>
+</body>
+</html>
