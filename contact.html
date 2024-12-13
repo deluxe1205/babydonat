@@ -31,7 +31,7 @@
         }
 
         .navbar {
-            background-color: #ff66b2; /* Pink color */
+            background-color: #c97b63; /* Light brown navbar */
             display: flex;
             justify-content: center;
             padding: 10px;
@@ -46,27 +46,29 @@
         }
 
         .navbar a:hover {
-            background-color: #ff3385; /* Lighter pink on hover */
+            background-color: #a56450; /* Darker brown on hover */
             border-radius: 5px;
         }
 
         .contact-container {
             display: flex;
-            justify-content: space-between;
+            justify-content: center; /* Center-align the container */
+            align-items: center;
             padding: 30px;
             max-width: 1000px;
             margin: auto;
         }
 
-        .contact-info, .contact-form {
-            width: 48%;
+        .contact-info {
+            width: 60%; /* Adjust width for centering */
             padding: 20px;
             background-color: white;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center the text */
         }
 
-        .contact-info h3, .contact-form h3 {
+        .contact-info h3 {
             font-size: 24px;
             color: #ff3385; /* Pink color */
         }
@@ -76,27 +78,9 @@
             color: #555;
         }
 
-        .contact-form input, .contact-form textarea {
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            width: 100%;
-        }
-
-        .contact-form button {
-            padding: 10px;
-            background-color: #ff66b2;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            width: 100%;
-        }
-
-        .contact-form button:hover {
-            background-color: #ff3385;
+        .contact-info a {
+            color: #ff3385;
+            text-decoration: none;
         }
 
         .google-map {
@@ -110,7 +94,7 @@
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #ff66b2;
+            background-color: #c97b63; /* Light brown footer */
             color: white;
             margin-top: 30px;
         }
@@ -129,6 +113,7 @@
         <a href="crafts.html">Crafts</a>
         <a href="contact.html">Contact</a>
         <a href="aboutus.html">About Us</a>
+        <a href="feedback.html">Feedback</a>
     </div>
 
     <div class="contact-container">
@@ -139,17 +124,6 @@
             <p>Call us: 09157503132</p>
             <p>Follow us on social media: <a href="#">Facebook</a> | <a href="#">YouTube</a></p>
             <p>Visit us at: 114 Emma Street, Pasay City</p>
-        </section>
-
-        <!-- Contact Form -->
-        <section class="contact-form">
-            <h3>Send Us a Message</h3>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" rows="4" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
         </section>
     </div>
 
